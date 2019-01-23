@@ -1,0 +1,219 @@
+/*导航栏*/
+body{
+	overflow-x: hidden;
+}
+.navbar {
+	height: 70px;
+}
+
+.collapse {
+	text-transform: uppercase;
+}
+
+.navbar .navbar-brand {
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+}
+
+.navbar .navbar-collapse {
+	font-size: 0.8em;
+	font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron {
+	height: 600px;
+	background-image: url("images/banner.jpg");
+	background-position: top;
+	background-size: cover;
+	border-radius: 0px;
+	text-align: center;
+}
+
+.display-4 {
+	color: black;
+	background-color: white;
+	margin-left: 29%;
+	margin-right: 29%;
+	margin-top: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-size: 45px;
+}
+
+.jumbotron .lead {
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	color: white;
+	font-size: 1.1em;
+	background-color: black;
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+/*第一部分*/
+.section1 {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.section1 .title {
+	font-family: 'Oswald';
+	padding-bottom: 20px;
+}
+
+.section1 .content {
+	font-family: 'Roboto';
+}
+
+/*第二部分*/
+.section2 {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.section2 .title {
+	font-family: 'Oswald';
+	padding-bottom: 20px;
+}
+
+.section2 .content {
+	font-family: 'Roboto';
+}
+
+/*第三部分*/
+.section3 {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.section3 .title {
+	font-family: 'Oswald';
+	padding-bottom: 20px;
+}
+
+.section3 .content {
+	font-family: 'Roboto';
+}
+
+/*visualization*/
+.visualization {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+	background-color: rgb(65,65,65);
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.visualization .title {
+	font-family: 'Oswald';
+	padding-bottom: 20px;
+}
+
+.visualization .content {
+	font-family: 'Roboto';
+}
+
+/*第四部分*/
+.section4 {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.section4 .title {
+	font-family: 'Oswald';
+	padding-bottom: 20px;
+}
+
+.section4 .content {
+	font-family: 'Roboto';
+}
+
+
+
+
+.about {
+	height: 300px;
+	padding-top: 50px;
+	text-align: center;
+	color: lightgrey;
+	background-color: rgb(10,10,10);
+}
+
+.about .title {
+	font-family: 'Oswald';
+	text-transform: capitalize;
+	padding-bottom: 20px;
+}
+
+.about .content {
+	font-family: 'Roboto';
+}
+
+.number {
+	color: orange;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.food-icon {
+	opacity: 0.5;
+}
+
+.affect {
+	color: orange;
+	font-weight: 700;
+}
+
+.bubble-item {
+	margin: 10px 20px 10px 20px;
+}
+
+.bubble:nth-of-type(1) {
+	margin-top: 50px;
+}
+
+.bubble-item:hover {
+	transform: scale(1.1);
+}
+
+.left-align {
+	text-align: left;
+}
+
+.row {
+	margin-top: 50px;
+	padding: 20px 0px 20px 0px;
+	border: 1px dashed grey;
+}
+
+.whatisgi {
+	font-size: 1.2em;
+}
+
+.video {
+	margin-left: 35%;
+}
+
+.wrapper{
+	width: 100vw;
+text-align: center;
+}
+
+.map{
+	width:80vw;
+	height: 100vh;
+	display: inline-block
+}
+.nav-item{
+	margin-right:50px;
+}
+
